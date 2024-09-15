@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    background-image: url("itachi_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  html,body
+  {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; 
+      overflow-y: hidden;
+  }
+  
+  .top-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav{
+    width: 100%;
+  }
+  
+  .nav{
+    display: flex;
+    width: 100%;
+    height: 2.5rem;
+    justify-content: flex-start;
+    background-color: #0C134F;
+    flex-direction: row;
+  }
+  
+  .logo h1{
+    font-family: 'Poppins', sans-serif !important;
+    color:white;
+    font-size: 1.5rem !important;
+    margin: auto;
+  }
+  
+  .mar{
+    width: 14rem;
+  }
+  
+  .logo{
+    margin-top: 0.1rem;
+  }
+  
+  .dot{
+    color: chartreuse;
+  }
+  
+  .T{
+    color: red;
+  }
+  
+  .centered{
+    display: flex;
+    margin-left: 11.1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .tw{
+    font-family: 'Roboto', sans-serif !important;
+    color:white;
+    font-size: 1.2rem !important;
+    margin: auto;
+    margin-left: 9.5rem;
+    visibility: hidden;
+  }
+  
+  .twitter{
+    width: 1.6rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .twitter .col{
+    background-color: rgb(214, 217, 219);
+  }
+  
+  .twitter .col:hover{
+    background-color: white;
+  }
+  
+  .linkedin{
+    width: 1.6rem;
+    margin-left: 2rem;
+    cursor: pointer;
+  }
+  
+  .linkedin .linke{
+    background-color: rgb(214, 217, 219);
+  }
+  
+  .linkedin .linke:hover{
+    background-color: white;
+  }
+  
+  .lin{
+    font-family: 'Roboto', sans-serif !important;
+    color:white;
+    font-size: 1.2rem !important;
+    margin: auto;
+    margin-left: 0.5rem;
+    visibility: hidden;
+  }
+  
+  .a{
+    text-decoration: none !important;
+    color: none;
+  }
+  
+  .lit{
+    text-decoration: none;
+    all: unset;
+  }
+  
+  .Experiences{
+    margin-right: 2.2rem;
+  }
+  
+  .Home{
+    margin-right: 2.2rem;
+  }
+  
+  .centered h1:hover{
+    color: #E3FDFD;
+    cursor: pointer;
+  }
+  
+  .Books{
+    margin-right: 2.2rem;
+  }
+  
+  .nav h1{
+    font-family: 'Inconsolata', monospace;
+    color:white;
+    font-size: 1.5rem;
+    margin: auto;
+  }
+  
+  
+  h2{
+    color: white;
+    font-size: 1.25rem;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .mnav{
+    display: none;
+  }
+  
+  .menu{
+    display: none;
+  }
+
+  @keyframes fadeIn {
+
+    from { opacity: 0; transform: translateY(20px); }
+  
+    to { opacity: 1; transform: translateY(0); }
+  
+  }
+  
+  
+  
+  .animated-text {
+  
+    animation: fadeIn 1s ease-in-out;
+  
+  }
+
+  .animated-text h1 {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    text-decoration: wavy;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 35%;
+  }
+  
+  @media screen and (max-width: 540px) {
+  
+    .logo{
+      margin-left: 1rem;
+    }
+  
+    .menu{
+         display: block;
+         margin-left: 15.8rem;
+         margin-top: 0.5rem;
+         color: white;
+     }
+  
+    .centered{
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      margin-left: 10rem !important;
+      background-color: hsl(0 0% 100% / 0.1);
+      backdrop-filter: blur(1rem);
+      height: 100vh;
+      visibility: hidden;
+    }
+  
+    .twitter{
+      display: none;
+    }
+  
+    .linkedin{
+      display: none;
+    }
+  
+    .nav h1{
+      font-family: 'Inconsolata', monospace;
+      color:white;
+      font-size: 1.3rem;
+      margin: auto;
+    }
+  
+    .Home{
+      margin-top: 5rem;
+    }
+  
+    .Experiences{
+      margin-top: 0.5rem;
+    }
+  
+    .Books{
+      margin-top: 0.5rem;
+    }
+  
+    .YouTube{
+      margin-top: 0.5rem;
+    }
+
+  
+  h2 {
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+ 
+  
+  }
